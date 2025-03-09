@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="">
+      <div class="titulo">
+        <h1>Faça o seu login</h1>
+        <div class="barra-horizontal"></div>
+      </div>
+
+      <div class="campo-input">
+        <label for="name">Digite seu nome*</label>
+        <input type="text" id="name" />
+      </div>
+
+      <div class="campo-input">
+        <label for="cpf">Digite seu CPF*</label>
+        <input type="text" id="cpf" />
+      </div>
+
+      <div class="campo-input">
+        <label for="nascimento">Digite sua data de nascimento*</label>
+        <input type="text" id="nascimento" />
+      </div>
+
+      <div class="lembrar-me">
+        <input type="checkbox" />
+        <p>Lembrar-me</p>
+      </div>
+
+   <section>
+    <a class="link-as-button" href="https://web.whatsapp.com"
+    target="_blank">
+      Entrar
+    </a>
+   </section>
+  
+
+    </form>
+  </body>
+</html>
